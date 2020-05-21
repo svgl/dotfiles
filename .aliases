@@ -6,8 +6,12 @@ alias ...="cd ../.."
 alias ....="cd ../../.."
 alias .....="cd ../../../.."
 
+# use color with ls
 alias ls="command ls --color"
 alias ll="ls -la --color"
+
+# sync dotfiles
+alias dotsync="source ~/dotfiles/bootstrap.sh"
 
 # Always enable colored `grep` output
 alias grep='grep --color=auto'
