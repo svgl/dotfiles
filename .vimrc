@@ -19,16 +19,3 @@ set smarttab              " use tabs at the start of a line, spaces elsewhere
 set nowrap                " dont' wrap text
 set clipboard=unnamed     " use os clipboard by default
 set title                 " show filename in title
-
-" Runtime path for Vundle
-set rtp+=~/.vim/bundle/Vundle.vim
-call vundle#begin()
-
-" Required for Vundle
-Plugin 'VundleVim/Vundle.vim'
-" Dracula color theme
-Plugin 'dracula/vim', {'name': 'dracula' }
-
-call vundle#end()
-
-colorscheme dracula

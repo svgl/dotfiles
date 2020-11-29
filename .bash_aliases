@@ -6,18 +6,8 @@ alias ...="cd ../.."
 alias ....="cd ../../.."
 alias .....="cd ../../../.."
 
-# use color with ls
-alias ls="command ls --color"
-alias ll="ls -la --color"
-
 # sync dotfiles
 alias dotsync="source ~/dotfiles/bootstrap.sh"
-
-# Always enable colored `grep` output
-alias grep='grep --color=auto'
-
-# Get macOS Software Updates
-alias update='sudo pacman -Syu; pamac upgrade --no-confirm; sudo yarn global upgrade'
 
 # Reload the shell (i.e. invoke as a login shell)
 alias reload="exec ${SHELL} -l"
